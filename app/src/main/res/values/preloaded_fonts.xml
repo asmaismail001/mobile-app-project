@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/caudex_bold</item>
+        <item>@font/denk_one</item>
+        <item>@font/fanwood_text</item>
+        <item>@font/gudea_bold</item>
+        <item>@font/roboto_slab_extrabold</item>
+        <item>@font/roboto_slab_medium</item>
+        <item>@font/roboto_slab_thin</item>
+    </array>
+</resources>
