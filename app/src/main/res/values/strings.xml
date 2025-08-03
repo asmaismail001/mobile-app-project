@@ -5,4 +5,7 @@
     <string name="password">Password</string>
     <string name="forget_password">Forget Password?</string>
     <string name="sign_up">Sign Up</string>
+    <string name="asmaismail_gmail_com">asmaIsmail@gmail.com</string>
+    <string name="asma_ismail">Asma Ismail</string>
+    <string name="whatsapp">Whatsapp</string>
 </resources>
