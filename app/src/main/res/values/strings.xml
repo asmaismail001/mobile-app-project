@@ -8,4 +8,14 @@
     <string name="asmaismail_gmail_com">asmaIsmail@gmail.com</string>
     <string name="asma_ismail">Asma Ismail</string>
     <string name="whatsapp">Whatsapp</string>
+    <string name="go_map">GO MAP</string>
+    <string name="welcome">WELCOME</string>
+    <string name="please_login_with_your_information">Please login with your information</string>
+    <string name="email_address">Email Address</string>
+    <string name="password1">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="i_forget_my_password">i forget my password</string>
+    <string name="login">Login</string>
+    <string name="or_login_with">or login with</string>
+    <string name="login1">login</string>
 </resources>

@@ -2,6 +2,6 @@
 <resources>
     <style name="text_Style">
         <item name="android:textColor">#35BCAF</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textStyle">normal</item>
     </style>
 </resources>

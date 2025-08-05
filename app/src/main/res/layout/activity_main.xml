@@ -4,10 +4,12 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5F5E5E"
-    android:paddingLeft="50dp"
-    android:paddingRight="50dp">
-
+    android:background="@drawable/img">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/my_primary"
+        android:alpha="0.8">
 
     <RelativeLayout
         android:layout_width="350dp"
@@ -60,8 +62,8 @@
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FE0F0E0E"
-            android:text="Login"
+            android:backgroundTint="#009688"
+            android:text="@string/login1"
             android:textColor="@color/white"
             android:textSize="25sp"
             android:layout_below="@id/pass"
@@ -99,5 +101,5 @@
 
     </RelativeLayout>
 
-
+    </RelativeLayout>
 </RelativeLayout>

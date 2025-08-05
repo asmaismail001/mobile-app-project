@@ -11,7 +11,7 @@
         android:id="@+id/constraintLayout"
         android:layout_width="414dp"
         android:layout_height="274dp"
-        android:background="#59B1A8"
+        android:background="#009688"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +66,7 @@
     <TextView
         android:id="@+id/textView3"
         style="@style/text_Style"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -117,7 +118,7 @@
             android:layout_marginBottom="14dp"
             android:text="Home"
             android:textColor="#59B1A8"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageHOME"
             app:layout_constraintTop_toTopOf="parent" />
@@ -172,7 +173,7 @@
             android:layout_marginBottom="14dp"
             android:text="Notification"
             android:textColor="#59B1A8"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageNotification"
             app:layout_constraintTop_toTopOf="parent" />
@@ -227,7 +228,7 @@
             android:layout_marginBottom="14dp"
             android:text="Chat"
             android:textColor="#59B1A8"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageChat"
             app:layout_constraintTop_toTopOf="parent" />
@@ -281,7 +282,7 @@
             android:layout_marginBottom="14dp"
             android:text="Phone Call"
             android:textColor="#59B1A8"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imagePhone"
             app:layout_constraintTop_toTopOf="parent" />
@@ -335,7 +336,7 @@
             android:layout_marginBottom="14dp"
             android:text="Setting"
             android:textColor="#59B1A8"
-            android:textSize="22sp"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/imageSetting"
             app:layout_constraintTop_toTopOf="parent" />
@@ -367,13 +368,14 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="357dp"
+        android:id="@+id/Logout"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#59B1A8"
+        android:backgroundTint="#009688"
         android:fontFamily="@font/roboto_slab_extrabold"
         android:text="LOG OUT"
         android:textColor="@color/white"
-        android:textSize="22sp"
+        android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.611"
         app:layout_constraintStart_toStartOf="parent"
